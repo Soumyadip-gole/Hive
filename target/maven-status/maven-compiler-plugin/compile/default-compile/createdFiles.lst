@@ -1,8 +1,0 @@
-protocol\Message.class
-protocol\ResultPayload.class
-protocol\Codec.class
-protocol\TaskPayload.class
-protocol\Payload.class
-protocol\MessageCodec.class
-protocol\RegisterPayload.class
-protocol\MessageType.class
