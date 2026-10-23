@@ -1,14 +1,11 @@
 package protocol;
 
-import java.time.Instant;
-import java.util.UUID;
-
-public record Message(
-        MessageType type,
-        UUID messageId,
-        UUID correlationId,
-        String senderId,
-        Instant timestamp,
-        Payload payload
-) {
+public class Message{
+    MessageType type;
+    Payload payload;
+    public Message(){}
+    public Message(MessageType type,Payload payload){
+        this.type=type;
+        this.payload=payload;
+    }
 }
